@@ -1,0 +1,94 @@
+html {
+    background-color: darkgray;
+}
+
+body {
+    border-radius: 38px;
+    background: #34305a;
+    box-shadow:  11px 11px 15px #302c53,
+             -11px -11px 15px #383461;
+    height: 480px; width: 500px;
+    overflow-y: scroll;
+    overflow: scroll;
+    position: relative;
+    top: 10%; left: 30%;
+    transition: all 1s ease;
+}
+
+body:hover {
+    outline: 2px solid darkgray;
+    outline-offset: 2px;
+    outline-width: 3px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: 10%;
+    left: 30%;
+}
+
+h3 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 10%; left: 40%;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid darkgray;
+    border-radius: 40px;
+}
+
+.loginbutton {
+    width: 100%;
+    padding: 12px 20px;
+    border: 3px solid darkgray;
+    border-radius: 40px;
+    width: auto;
+    position: relative;
+    left: 40%;
+    top: 20%;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.loginbutton:hover {
+    background-color: lightslategray;
+    cursor: pointer;
+    transform: scale(1.2);
+    transform-origin: center center;
+    
+}	
+
+.emailinput {
+    width: 50%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 3px solid darkgray;
+    border-radius: 40px;
+    position: relative;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+  
+  .passwordinput {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid darkgray;
+    border-radius: 40px;
+    position: relative;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
